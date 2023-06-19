@@ -1,0 +1,133 @@
+@import "variables";
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.change-theme {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-inline: 10px;
+}
+
+.change-theme img {
+  height: 30px;
+}
+
+.bi {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.bi-sun {
+  display: none;
+}
+
+.dark .bi-sun {
+  display: block;
+}
+
+.dark .bi-moon {
+  display: none;
+}
+
+// ---- Modo light ---- //
+
+// Botão Principal
+.dark .button-main--secondary:hover {
+  background: $dark-color;
+  color: $primary-color;
+}
+
+// Fundo
+.dark .blob_bg {
+  fill: $primary-color;
+}
+
+// Menu
+.dark .menu {
+  background-color: $primary-color;
+}
+
+.dark .menu .separ_button {
+  color: $dark-color;
+}
+
+.dark .menu a {
+  color: $dark-color;
+}
+
+.dark .menu a:hover {
+  background-color: $secondary-color;
+}
+
+.dark .menu .sub {
+  color: $title-2;
+}
+
+// Sobre
+.dark .about-text h2 {
+  color: $dark-color;
+}
+
+.dark .about-text p {
+  color: $dark-color;
+}
+
+// Skills
+.dark .skills h2 {
+  color: $dark-color;
+}
+
+.dark .question p {
+  color: $title-2;
+}
+
+.dark .question svg path {
+  stroke: $dark-color;
+}
+
+.dark .answer-txt {
+  color: $dark-color;
+}
+
+.dark .dropdown-list a {
+  color: $dark-color;
+}
+
+// Projetos
+.dark .project h2 {
+  color: $dark-color;
+}
+
+.dark .project p {
+  color: $title-2;
+}
+
+.dark .swiper-pagination-bullet {
+  background: $main-color;
+}
+
+// Contato
+
+.dark .contact .title {
+  color: $dark-color;
+}
+
+.dark .contact-container p {
+  color: $dark-color;
+}
+
+.dark .contact {
+  .left-contact,
+  .right-contact {
+    background: #fff;
+  }
+}
+
+// Footer
+.dark footer span,
+.dark footer span a {
+  color: $dark-color;
+}
