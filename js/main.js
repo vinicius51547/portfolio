@@ -1,3 +1,14 @@
+// Loader
+document.addEventListener("DOMContentLoaded", function() {
+  var loadingOverlay = document.getElementById("loading-overlay");
+  loadingOverlay.style.display = "none";
+});
+
+window.addEventListener("load", function() {
+  var loadingOverlay = document.getElementById("loading-overlay");
+  loadingOverlay.style.display = "none";
+});
+
 // Navbar
 const nav = document.querySelector("#nav");
 

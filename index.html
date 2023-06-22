@@ -16,15 +16,25 @@
     <!-- Darkmode -->
     <script src="js/darkmode.js" defer></script>
     <!-- FavIcon -->
-    <link rel="icon" href="img/icons/favicon.png" type="image/x-icon">
-
+    <link rel="icon" href="img/icons/favicon.png" type="image/x-icon" />
   </head>
 
   <body>
+    <!-- Loader -->
+    <div id="loading-overlay">
+      <div class="loading-bounce">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+      <div id="loading-text">Carregando...</div>
+    </div>
+    <!-- Fim Loader -->
+    
     <header class="header">
       <nav id="nav">
         <div class="nav-container">
-          <img src="img/icons/logo.png" alt="">
+          <img src="img/icons/logo.png" alt="" />
           <div class="links">
             <a
               href="https://github.com/vinicius51547"
@@ -170,10 +180,10 @@ z"
           </p>
 
           <a href="Curriculo.pdf" download>
-          <button class="button-slider button-main--primary">
-            Download CV <i class="ri-download-2-line"></i>
-          </button>
-        </a>
+            <button class="button-slider button-main--primary">
+              Download CV <i class="ri-download-2-line"></i>
+            </button>
+          </a>
         </div>
       </div>
     </section>
@@ -441,12 +451,18 @@ z"
         <div class="left-contact">
           <i class="ri-mail-line"></i>
           <h2>Email</h2>
-          <a class="link-contact" href="mailto:vinicius51547@gmail.com"><p>vinicius51547@gmail.com</p></a>
+          <a class="link-contact" href="mailto:vinicius51547@gmail.com"
+            ><p>vinicius51547@gmail.com</p></a
+          >
         </div>
         <div class="right-contact">
           <i class="ri-phone-line"></i>
           <h2>Telefone</h2>
-          <a class="link-contact" href="https://api.whatsapp.com/send?phone=11958825581"><p>+55 (11)958815581</p></a>
+          <a
+            class="link-contact"
+            href="https://api.whatsapp.com/send?phone=11958825581"
+            ><p>+55 (11)958815581</p></a
+          >
         </div>
       </div>
     </section>
