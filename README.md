@@ -1,4 +1,4 @@
-<h1 align="center">Portifólio</h1>
+<h1 align="center">Portifólio 👨‍💻</h1>
 
 <p align="center">Este é o meu portfólio, onde compartilho projetos e experiências de programação, demonstrando habilidades e conhecimentos em uma variedade de projetos interessantes.</p>
 
