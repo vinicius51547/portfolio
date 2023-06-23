@@ -58,7 +58,7 @@ link do repositorio: https://github.com/vinicius51547/WaiterApp
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - Html
-- Css
+- Sass
 - JavaScript
 
 ### 🔗 Acesso ao projeto
