@@ -62,7 +62,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - JavaScript
 
 ### 🔗 Acesso ao projeto
-Link do portifolio: https://vinicius51547.github.io/portifolio/
+Link do portifolio: https://vinicius51547.github.io/Portifolio/
 
 ### 📞 Contato
 
