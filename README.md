@@ -24,7 +24,7 @@ link do projeto: https://lopesenatalio.com
 - Xampp
 - Mysql
 
-link do projeto: http://elitebarber.epizy.com <br />
+link do projeto: http://elitebarber.wuaze.com <br />
 link do repositorio: https://github.com/vinicius51547/Projeto-Barbearia
 
 ### 🔸 Uniwise: Essa foi uma campanha de arrecadação de agasalhos para doação criada por meu grupo para o combate da frente fria que ocorreu em maio de 2021. <br /><br />
@@ -35,7 +35,7 @@ link do repositorio: https://github.com/vinicius51547/Projeto-Barbearia
 - Css
 - JavaScript
 
-link do projeto: http://uniwise.lovestoblog.com/?i=1 <br />
+link do projeto: http://uniwise.wuaze.com <br />
 link do repositorio: https://github.com/vinicius51547/Uniwise
 
 ### 🔸 WaiterApp: App de pedidos com direito a categorias, cardápio e carrinho de compras. <br /><br />
