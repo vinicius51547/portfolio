@@ -62,7 +62,7 @@ link do repositorio: https://github.com/vinicius51547/WaiterApp
 - Firebase
 - Javascript
 
-link do repositorio: https://github.com/vinicius51547/Projeto-Tarefas <br /><br />
+link do repositorio: https://github.com/vinicius51547/Projeto-Tarefas <br />
 link do projeto: https://tasskhub.netlify.app
 
 <br />
