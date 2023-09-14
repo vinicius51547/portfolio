@@ -14,6 +14,20 @@
 
 link do projeto: https://lopesenatalio.com
 
+### 🔸 TaskHub: Projeto para criar e gerenciar tarefas com login do Google, compartilhamento público e comentários. <br /><br />
+🛠 Tecnologias Utilizadas nesse projeto:
+
+- Html
+- Css
+- Typescript
+- Nodejs
+- Firebase
+- Javascript
+
+link do repositorio: https://github.com/vinicius51547/Projeto-Tarefas <br />
+link do projeto: https://tasskhub.netlify.app
+
+
 ### 🔸 EliteBarber: Apresentamos um projeto de barbearia com uma tela de administração, onde é possível registrar clientes, produtos, serviços e agendamentos. <br /><br />
 🛠 Tecnologias Utilizadas nesse projeto:
 
@@ -38,6 +52,19 @@ link do repositorio: https://github.com/vinicius51547/Projeto-Barbearia
 link do projeto: http://uniwise.wuaze.com <br />
 link do repositorio: https://github.com/vinicius51547/Uniwise
 
+### 🔸 PixelsDesign: Landing page com formulário de contato. <br /><br />
+🛠 Tecnologias Utilizadas nesse projeto:
+
+- Html
+- Css
+- Javascript
+- Php
+- Mysql
+
+link do repositorio: https://github.com/vinicius51547/Projeto-Tarefas <br />
+link do projeto: https://tasskhub.netlify.app
+
+
 ### 🔸 WaiterApp: App de pedidos com direito a categorias, cardápio e carrinho de compras. <br /><br />
 🛠 Tecnologias Utilizadas nesse projeto:
 
@@ -51,19 +78,6 @@ link do repositorio: https://github.com/vinicius51547/Uniwise
 - Android studio
 
 link do repositorio: https://github.com/vinicius51547/WaiterApp
-
-### 🔸 TaskHub: Projeto para criar e gerenciar tarefas com login do Google, compartilhamento público e comentários. <br /><br />
-🛠 Tecnologias Utilizadas nesse projeto:
-
-- Html
-- Css
-- Typescript
-- Nodejs
-- Firebase
-- Javascript
-
-link do repositorio: https://github.com/vinicius51547/Projeto-Tarefas <br />
-link do projeto: https://tasskhub.netlify.app
 
 <br />
 
