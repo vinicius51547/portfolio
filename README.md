@@ -52,17 +52,32 @@ link do repositorio: https://github.com/vinicius51547/Uniwise
 
 link do repositorio: https://github.com/vinicius51547/WaiterApp
 
+### 🔸 TaskHub: Projeto para criar e gerenciar tarefas com login do Google, compartilhamento público e comentários. <br /><br />
+🛠 Tecnologias Utilizadas nesse projeto:
+
+- Html
+- Css
+- Typescript
+- Nodejs
+- Firebase
+- Javascript
+
+link do repositorio: https://github.com/vinicius51547/Projeto-Tarefas
+link do projeto: https://tasskhub.netlify.app
+
 <br />
 
 ### 🛠 Tecnologias utilizadas no portifolio
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - Html
+- Css
 - Sass
 - JavaScript
 
 ### 🔗 Acesso ao projeto
 Link do portifolio: https://vinicius51547.github.io/Portifolio/
+
 
 ### 📞 Contato
 
