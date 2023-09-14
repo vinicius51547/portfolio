@@ -1,122 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vinicius Dev</title>
-    <!-- Remix Icons -->
-    <link rel="stylesheet" href="img/remix-icons/remixicon.css" />
-    <!-- LineIncons -->
-    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
-    <!-- Swiper -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <!-- Css -->
-    <link rel="stylesheet" href="css/styles.css" />
-    <!-- Darkmode -->
-    <script src="js/darkmode.js" defer></script>
-    <!-- FavIcon -->
-    <link rel="icon" href="img/icons/favicon.png" type="image/x-icon" />
-  </head>
 
-  <body>
-    <!-- Loader -->
-    <div id="loading-overlay">
-      <div class="loading-bounce">
-        <div class="bounce1"></div>
-        <div class="bounce2"></div>
-        <div class="bounce3"></div>
-      </div>
-      <div id="loading-text">Carregando...</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinicius Dev</title>
+  <!-- Remix Icons -->
+  <link rel="stylesheet" href="img/remix-icons/remixicon.css" />
+  <!-- LineIncons -->
+  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <!-- Css -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Darkmode -->
+  <script src="js/darkmode.js" defer></script>
+  <!-- FavIcon -->
+  <link rel="icon" href="img/icons/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+  <!-- Loader -->
+  <div id="loading-overlay">
+    <div class="loading-bounce">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
     </div>
-    <!-- Fim Loader -->
-    
-    <header class="header">
-      <nav id="nav">
-        <div class="nav-container">
-          <img src="img/icons/logo.png" alt="" />
-          <div class="links">
-            <a
-              href="https://github.com/vinicius51547"
-              target="_blank"
-              class="icon_link"
-              ><i class="ri-github-line"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/vinicius-gomes-605749251/"
-              target="_blank"
-              class="icon_link"
-              ><i class="ri-linkedin-line"></i
-            ></a>
-          </div>
-          <i class="ri-menu-3-line" id="menu-button"></i>
+    <div id="loading-text">Carregando...</div>
+  </div>
+  <!-- Fim Loader -->
+
+  <header class="header">
+    <nav id="nav">
+      <div class="nav-container">
+        <img src="img/icons/logo.png" alt="" />
+        <div class="links">
+          <a href="https://github.com/vinicius51547" target="_blank" class="icon_link"><i
+              class="ri-github-line"></i></a>
+          <a href="https://www.linkedin.com/in/vinicius-gomes-605749251/" target="_blank" class="icon_link"><i
+              class="ri-linkedin-line"></i></a>
         </div>
-      </nav>
-
-      <!-- Menu -->
-      <div id="menu" class="menu">
-        <ul>
-          <li>
-            <!-- Botão para fechar o menu -->
-            <div class="separ_button">
-              <i id="close-menu" class="ri-close-fill"></i>
-            </div>
-            <a href="#home">Inicio</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#skills">Skills</a>
-            <a href="#projeto">Projeto</a>
-            <a href="#contato">Contato</a>
-            <p class="sub sub-title-1">Modo escuro</p>
-            <!-- Botão Darkmode -->
-            <div>
-              <input type="checkbox" name="change-theme" id="change-theme" />
-              <label class="change-theme" for="change-theme">
-                <i class="bi bi-sun"
-                  ><img src="img/icons/sun.svg" alt="sun"
-                /></i>
-                <i class="bi bi-moon"
-                  ><img src="img/icons/moon.svg" alt="moon"
-                /></i>
-                <span class="toggle-indicator"></span>
-              </label>
-            </div>
-          </li>
-        </ul>
+        <i class="ri-menu-3-line" id="menu-button"></i>
       </div>
-    </header>
-    <!-- Overlay do menu -->
-    <div id="overlay"></div>
+    </nav>
 
-    <!-- Background -->
-    <div class="bg_container">
-      <div class="bg_content">
-        <div class="blob blob_1"></div>
-        <div class="blob blob_2"></div>
-        <div class="blob blob_3_opc"></div>
-        <div class="blob blob_4"></div>
-        <div class="blob blob_5_opc"></div>
-        <div class="blob blob_6"></div>
-        <div class="blob blob_7"></div>
-        <div class="blob blob_8"></div>
+    <!-- Menu -->
+    <div id="menu" class="menu">
+      <ul>
+        <li>
+          <!-- Botão para fechar o menu -->
+          <div class="separ_button">
+            <i id="close-menu" class="ri-close-fill"></i>
+          </div>
+          <a href="#home">Inicio</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#skills">Skills</a>
+          <a href="#projeto">Projeto</a>
+          <a href="#contato">Contato</a>
+          <p class="sub sub-title-1">Modo escuro</p>
+          <!-- Botão Darkmode -->
+          <div>
+            <input type="checkbox" name="change-theme" id="change-theme" />
+            <label class="change-theme" for="change-theme">
+              <i class="bi bi-sun"><img src="img/icons/sun.svg" alt="sun" /></i>
+              <i class="bi bi-moon"><img src="img/icons/moon.svg" alt="moon" /></i>
+              <span class="toggle-indicator"></span>
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!-- Overlay do menu -->
+  <div id="overlay"></div>
 
-        <!-- Svg que eu consigo mudar a cor pelo css -->
-        <div class="blob_bg">
-          <svg
-            version="1.1"
-            id="Layer_1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px"
-            y="0px"
-            width="100%"
-            viewBox="0 0 1200 600"
-            enable-background="new 0 0 1200 600"
-            xml:space="preserve"
-          >
-            <path
-              opacity="1.000000"
-              stroke="none"
-              d="
+  <!-- Background -->
+  <div class="bg_container">
+    <div class="bg_content">
+      <div class="blob blob_1"></div>
+      <div class="blob blob_2"></div>
+      <div class="blob blob_3_opc"></div>
+      <div class="blob blob_4"></div>
+      <div class="blob blob_5_opc"></div>
+      <div class="blob blob_6"></div>
+      <div class="blob blob_7"></div>
+      <div class="blob blob_8"></div>
+
+      <!-- Svg que eu consigo mudar a cor pelo css -->
+      <div class="blob_bg">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px" y="0px" width="100%" viewBox="0 0 1200 600" enable-background="new 0 0 1200 600" xml:space="preserve">
+          <path opacity="1.000000" stroke="none" d="
 M409.004791,280.184265 
 	C410.509766,271.657257 415.338898,265.729248 421.161530,260.244720 
 	C428.435669,253.393021 435.061737,245.833405 442.523834,239.205734 
@@ -134,133 +110,96 @@ M409.004791,280.184265
 	C447.192749,343.001617 434.192444,328.352722 420.218689,314.630737 
 	C412.394836,306.947815 407.910187,297.220245 407.951599,285.833801 
 	C407.958374,283.965393 408.367950,282.298035 409.004791,280.184265 
-z"
-            />
-          </svg>
-        </div>
+z" />
+        </svg>
       </div>
     </div>
-    <!-- Fim background -->
+  </div>
+  <!-- Fim background -->
 
-    <section class="main" id="home">
-      <main class="top">
-        <div class="container-main">
-          <div class="txt-main lar-text max-text">
-            <h2 class="title-main">Olá! eu sou o Vinicius</h2>
-            <h3 class="sub-title-main">Desenvolvedor Frontend</h3>
-            <p class="text-center">
-              Atualmente tenho estudado através de cursos e documentações as
-              tecnologias de Front-End.
-            </p>
-          </div>
-          <img class="main-img" src="img/eu.svg" alt="" />
-        </div>
-
-        <span class="scroll">
-          <img class="scroll-img" src="img/icons/mouse.svg" alt="" />
-          <span>Skroll</span>
-          <span><i class="ri-arrow-down-line"></i> </span>
-        </span>
-      </main>
-    </section>
-
-    <!-- Sobre mim -->
-    <section class="about" id="sobre">
-      <h2 class="title top-2">Sobre</h2>
-
-      <div class="about-container">
-        <img src="img/eu.svg" />
-        <div class="about-text text-center">
-          <h2 class="text-center-2">Sobre Mim</h2>
-
-          <p class="sub-title-1 text-center">
-            No momento, estou matriculado no curso de Análise e Desenvolvimento
-            de Sistemas na faculdade e também possuo formação como Técnico em
-            Desenvolvimento de Sistemas.
+  <section class="main" id="home">
+    <main class="top">
+      <div class="container-main">
+        <div class="txt-main lar-text max-text">
+          <h2 class="title-main">Olá! eu sou o Vinicius</h2>
+          <h3 class="sub-title-main">Desenvolvedor Frontend</h3>
+          <p class="text-center">
+            Atualmente tenho estudado através de cursos e documentações as
+            tecnologias de Front-End.
           </p>
-
-          <a href="Curriculo.pdf" download>
-            <button class="button-slider button-main--primary">
-              Download CV <i class="ri-download-2-line"></i>
-            </button>
-          </a>
         </div>
+        <img class="main-img" src="img/eu.svg" alt="" />
       </div>
-    </section>
 
-    <!-- Skills -->
-    <section class="skills" id="skills">
-      <h2 class="title top-2">Skills</h2>
+      <span class="scroll">
+        <img class="scroll-img" src="img/icons/mouse.svg" alt="" />
+        <span>Skroll</span>
+        <span><i class="ri-arrow-down-line"></i> </span>
+      </span>
+    </main>
+  </section>
 
-      <!-- dropdown -->
-      <div class="dropdown-container">
-        <div class="dropdown-list center">
-          <div class="faq-separ">
-            <div class="faq active">
-              <div class="question">
-                <div class="question-separ">
-                  <i class="ri-braces-fill"></i>
-                  <div>
-                    <h2>Front-End</h2>
-                    <p class="sub-title-1">2 ano de conhecimento</p>
-                  </div>
+  <!-- Sobre mim -->
+  <section class="about" id="sobre">
+    <h2 class="title top-2">Sobre</h2>
+
+    <div class="about-container">
+      <img src="img/eu.svg" />
+      <div class="about-text text-center">
+        <h2 class="text-center-2">Sobre Mim</h2>
+
+        <p class="sub-title-1 text-center">
+          No momento, estou matriculado no curso de Análise e Desenvolvimento
+          de Sistemas na faculdade e também possuo formação como Técnico em
+          Desenvolvimento de Sistemas.
+        </p>
+
+        <a href="Curriculo.pdf" download>
+          <button class="button-slider button-main--primary">
+            Download CV <i class="ri-download-2-line"></i>
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <h2 class="title top-2">Skills</h2>
+
+    <!-- dropdown -->
+    <div class="dropdown-container">
+      <div class="dropdown-list center">
+        <div class="faq-separ">
+          <div class="faq active">
+            <div class="question">
+              <div class="question-separ">
+                <i class="ri-braces-fill"></i>
+                <div>
+                  <h2>Front-End</h2>
+                  <p class="sub-title-1">2 ano de conhecimento</p>
                 </div>
-                <svg width="15" height="10" viewBox="0 0 42 25" fill="none">
-                  <path
-                    d="M3 3L21 21L39 3"
-                    stroke="white"
-                    stroke-width="7"
-                    stroke-linecap="round"
-                  />
-                </svg>
               </div>
-              <div class="answer">
-                <div class="answer-drop answer-top">
-                  <i class="ri-html5-line"></i>
-                  <p class="answer-txt">Html5</p>
-                </div>
-                <div class="answer-drop">
-                  <i class="ri-css3-line"></i>
-                  <p class="answer-txt">Css</p>
-                </div>
-                <div class="answer-drop">
-                  <i class="ri-javascript-line"></i>
-                  <p class="answer-txt">JavaScript</p>
-                </div>
-                <div class="answer-drop">
-                  <i class="ri-reactjs-fill"></i>
-                  <p class="answer-txt">ReactJs</p>
-                </div>
-              </div>
+              <svg width="15" height="10" viewBox="0 0 42 25" fill="none">
+                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+              </svg>
             </div>
-
-            <div class="faq">
-              <div class="question">
-                <div class="question-separ">
-                  <i class="ri-code-s-slash-line"></i>
-                  <div>
-                    <h2>Back-End</h2>
-                    <p class="sub-title-1">2 ano de conhecimento</p>
-                  </div>
-                </div>
-                <svg width="15" height="10" viewBox="0 0 42 25" fill="none">
-                  <path
-                    d="M3 3L21 21L39 3"
-                    stroke="white"
-                    stroke-width="7"
-                    stroke-linecap="round"
-                  />
-                </svg>
+            <div class="answer">
+              <div class="answer-drop answer-top">
+                <i class="ri-html5-line"></i>
+                <p class="answer-txt">Html5</p>
               </div>
-              <div class="answer">
-                <div class="answer-drop answer-top">
-                  <i class="lni lni-php"></i>
-                  <p class="answer-txt">Php</p>
-                </div>
-                <div class="answer-drop">
-                  <i class="lni lni-nodejs"></i>
-                  <p class="answer-txt">NodeJs</p>
-                </div>
+              <div class="answer-drop">
+                <i class="ri-css3-line"></i>
+                <p class="answer-txt">Css</p>
+              </div>
+              <div class="answer-drop">
+                <i class="ri-javascript-line"></i>
+                <p class="answer-txt">JavaScript</p>
+              </div>
+              <div class="answer-drop">
+                <i class="ri-reactjs-fill"></i>
+                <p class="answer-txt">ReactJs</p>
               </div>
             </div>
           </div>
@@ -268,225 +207,279 @@ z"
           <div class="faq">
             <div class="question">
               <div class="question-separ">
-                <i class="ri-pantone-line"></i>
+                <i class="ri-code-s-slash-line"></i>
                 <div>
-                  <h2>Design</h2>
-                  <p class="sub-title-1">1 ano de conhecimento</p>
+                  <h2>Back-End</h2>
+                  <p class="sub-title-1">2 ano de conhecimento</p>
                 </div>
               </div>
-
               <svg width="15" height="10" viewBox="0 0 42 25" fill="none">
-                <path
-                  d="M3 3L21 21L39 3"
-                  stroke="white"
-                  stroke-width="7"
-                  stroke-linecap="round"
-                />
+                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
               </svg>
             </div>
             <div class="answer">
               <div class="answer-drop answer-top">
-                <i class="lni lni-figma"></i>
-                <p class="answer-txt">Figma</p>
+                <i class="lni lni-php"></i>
+                <p class="answer-txt">Php</p>
               </div>
               <div class="answer-drop">
-                <i class="photoshop-icon"></i>
-                <p class="answer-txt">Photoshop</p>
+                <i class="lni lni-nodejs"></i>
+                <p class="answer-txt">NodeJs</p>
               </div>
             </div>
           </div>
-          <a href="https://github.com/vinicius51547" target="_blank"
-            >Ver todas as tecnologias</a
-          >
         </div>
+
+        <div class="faq">
+          <div class="question">
+            <div class="question-separ">
+              <i class="ri-pantone-line"></i>
+              <div>
+                <h2>Design</h2>
+                <p class="sub-title-1">1 ano de conhecimento</p>
+              </div>
+            </div>
+
+            <svg width="15" height="10" viewBox="0 0 42 25" fill="none">
+              <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+            </svg>
+          </div>
+          <div class="answer">
+            <div class="answer-drop answer-top">
+              <i class="lni lni-figma"></i>
+              <p class="answer-txt">Figma</p>
+            </div>
+            <div class="answer-drop">
+              <i class="photoshop-icon"></i>
+              <p class="answer-txt">Photoshop</p>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/vinicius51547" target="_blank">Ver todas as tecnologias</a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Projetos -->
-    <section class="project" id="projeto">
-      <div class="projects">
-        <h2 class="title top-2">Projetos</h2>
+  <!-- Projetos -->
+  <section class="project" id="projeto">
+    <div class="projects">
+      <h2 class="title top-2">Projetos</h2>
 
-        <!-- Projetos em destaques -->
+      <!-- Projetos em destaques -->
 
-        <!-- Primeiro Slide -->
-        <div class="slider-container swiper-container">
-          <div class="slider-wrapper swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="slide-content">
-                <div class="slide-image">
-                  <img src="img/portifolio/img-1.png" class="portifolio_img" />
+      <!-- Primeiro Slide -->
+      <div class="slider-container swiper-container">
+        <div class="slider-wrapper swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div class="slide-image">
+                <img src="img/portifolio/lopesenatalio.png" class="portifolio_img" />
+              </div>
+              <div class="slide-text">
+                <h2 class="text-center-2">Lopesenatalio</h2>
+                <p class="sub-title-1 text-center-2">
+                  Criação do website responsivo para uma empresa de piso
+                  industrial onde é possivel ver os trabalhos da empresa e
+                  entrar em contato pelo formulario.
+                </p>
+                <div class="btn-sliders">
+                  <a href="https://lopesenatalio.com" target="_blank">
+                    <button class="button-slider button-main--primary">
+                      Visitar <i class="ri-share-box-fill"></i></button></a>
+                  <button class="button-slider button-main--secondary">
+                    Repositório <i class="ri-github-line"></i>
+                  </button>
                 </div>
-                <div class="slide-text">
-                  <h2 class="text-center-2">Lopesenatalio</h2>
-                  <p class="sub-title-1 text-center-2">
-                    Criação do website responsivo para uma empresa de piso
-                    industrial onde é possivel ver os trabalhos da empresa e
-                    entrar em contato pelo formulario.
-                  </p>
-                  <div class="btn-sliders">
-                    <a href="https://lopesenatalio.com" target="_blank">
-                      <button class="button-slider button-main--primary">
-                        Visitar <i class="ri-share-box-fill"></i></button
-                    ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Segundo Slide -->
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div class="slide-image">
+                <img src="img/portifolio/taskHub.png" class="portifolio_img" />
+              </div>
+              <div class="slide-text">
+                <h2 class="text-center-2">TaskHub</h2>
+                <p class="sub-title-1 text-center-2">
+                  Projeto para criar e gerenciar tarefas com login do Google, compartilhamento público e comentários.
+                </p>
+                <div class="btn-sliders">
+                  <a href="https://tasskhub.netlify.app/" target="_blank">
+                    <button class="button-slider button-main--primary">
+                      Visitar <i class="ri-share-box-fill"></i>
+                    </button>
+                  </a>
+                  <a href="https://github.com/vinicius51547/Projeto-Tarefas" target="_blank">
                     <button class="button-slider button-main--secondary">
                       Repositório <i class="ri-github-line"></i>
                     </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Segundo Slide -->
-            <div class="swiper-slide">
-              <div class="slide-content">
-                <div class="slide-image">
-                  <img
-                    src="img/portifolio/elitebarber.png"
-                    class="portifolio_img"
-                  />
-                </div>
-                <div class="slide-text">
-                  <h2 class="text-center-2">Projeto Barbearia</h2>
-                  <p class="sub-title-1 text-center-2">
-                    Projeto final de Programação Web II do segundo modulo do
-                    curso tecnico.
-                  </p>
-                  <div class="btn-sliders">
-                    <a href="http://elitebarber.epizy.com/" target="_blank">
-                      <button class="button-slider button-main--primary">
-                        Visitar <i class="ri-share-box-fill"></i>
-                      </button>
-                    </a>
-                    <a
-                      href="https://github.com/vinicius51547/Projeto-Barbearia"
-                      target="_blank"
-                    >
-                      <button class="button-slider button-main--secondary">
-                        Repositório <i class="ri-github-line"></i>
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Terceiro Slide -->
-            <div class="swiper-slide">
-              <div class="slide-content">
-                <div class="slide-image">
-                  <img
-                    src="img/portifolio/uniwise.png"
-                    class="portifolio_img"
-                  />
-                </div>
-                <div class="slide-text">
-                  <h2 class="text-center-2">Trabalho voluntário</h2>
-                  <p class="sub-title-1 text-center-2">
-                    Essa foi uma campanha de arrecadação de agasalhos para
-                    doação criada por meu grupo para o combate da frente fria
-                    que ocorreu em maio de 2022.
-                  </p>
-                  <div class="btn-sliders">
-                    <a href="http://uniwise.lovestoblog.com/" target="_blank">
-                      <button class="button-slider button-main--primary">
-                        Visitar <i class="ri-share-box-fill"></i>
-                      </button>
-                    </a>
-                    <a
-                      href="https://github.com/vinicius51547/Uniwise"
-                      target="_blank"
-                    >
-                      <button class="button-slider button-main--secondary">
-                        Repositório <i class="ri-github-line"></i>
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Quarto Slider -->
-            <div class="swiper-slide">
-              <div class="slide-content">
-                <div class="slide-image">
-                  <img
-                    src="img/portifolio/waiter-app.png"
-                    class="portifolio_img"
-                  />
-                </div>
-                <div class="slide-text">
-                  <h2 class="text-center-2">Aplicativo de garçom</h2>
-                  <p class="sub-title-1 text-center-2">
-                    App de pedidos com direito a categorias, cardápio e carrinho
-                    de compras. Desenvolvido com React Native.
-                  </p>
-                  <div class="btn-sliders">
-                    <a href="http://uniwise.lovestoblog.com/" target="_blank">
-                      <button class="button-slider button-main--secondary">
-                        Repositório <i class="ri-github-line"></i>
-                      </button>
-                    </a>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button-prev">
-            <i class="ri-arrow-left-s-line swiper-portifolio-icon"></i>
+
+          <!-- Terceiro Slide -->
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div class="slide-image">
+                <img src="img/portifolio/elitebarber.png" class="portifolio_img" />
+              </div>
+              <div class="slide-text">
+                <h2 class="text-center-2">EliteBarber</h2>
+                <p class="sub-title-1 text-center-2">
+                  Projeto final de Programação Web II do segundo modulo do
+                  curso tecnico.
+                </p>
+                <div class="btn-sliders">
+                  <a href="http://elitebarber.epizy.com/" target="_blank">
+                    <button class="button-slider button-main--primary">
+                      Visitar <i class="ri-share-box-fill"></i>
+                    </button>
+                  </a>
+                  <a href="https://github.com/vinicius51547/Projeto-Barbearia" target="_blank">
+                    <button class="button-slider button-main--secondary">
+                      Repositório <i class="ri-github-line"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="swiper-button-next">
-            <i class="ri-arrow-right-s-line swiper-portifolio-icon"></i>
+
+          <!-- Quarto Slide -->
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div class="slide-image">
+                <img src="img/portifolio/uniwise.png" class="portifolio_img" />
+              </div>
+              <div class="slide-text">
+                <h2 class="text-center-2">Trabalho voluntário</h2>
+                <p class="sub-title-1 text-center-2">
+                  Essa foi uma campanha de arrecadação de agasalhos para
+                  doação criada por meu grupo para o combate da frente fria
+                  que ocorreu em maio de 2022.
+                </p>
+                <div class="btn-sliders">
+                  <a href="http://uniwise.lovestoblog.com/" target="_blank">
+                    <button class="button-slider button-main--primary">
+                      Visitar <i class="ri-share-box-fill"></i>
+                    </button>
+                  </a>
+                  <a href="https://github.com/vinicius51547/Uniwise" target="_blank">
+                    <button class="button-slider button-main--secondary">
+                      Repositório <i class="ri-github-line"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- Quinto Slide -->
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div class="slide-image">
+                <img src="img/portifolio/PixelDesign.png" class="portifolio_img" />
+              </div>
+              <div class="slide-text">
+                <h2 class="text-center-2">PixelDesign</h2>
+                <p class="sub-title-1 text-center-2">
+                  Landing page com formulário de contato.
+                </p>
+                <div class="btn-sliders">
+                  <a href="http://landing-page.wuaze.com/index.php" target="_blank">
+                    <button class="button-slider button-main--primary">
+                      Visitar <i class="ri-share-box-fill"></i>
+                    </button>
+                  </a>
+                  <a href="https://github.com/vinicius51547/Landing-page" target="_blank">
+                    <button class="button-slider button-main--secondary">
+                      Repositório <i class="ri-github-line"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sexto Slide -->
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div class="slide-image">
+                <img src="img/portifolio/waiter-app.png" class="portifolio_img" />
+              </div>
+              <div class="slide-text">
+                <h2 class="text-center-2">Aplicativo de garçom</h2>
+                <p class="sub-title-1 text-center-2">
+                  App de pedidos com direito a categorias, cardápio e carrinho
+                  de compras. Desenvolvido com React Native.
+                </p>
+                <div class="btn-sliders">
+                  <a href="http://uniwise.lovestoblog.com/" target="_blank">
+                    <button class="button-slider button-main--secondary">
+                      Repositório <i class="ri-github-line"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev">
+          <i class="ri-arrow-left-s-line swiper-portifolio-icon"></i>
+        </div>
+        <div class="swiper-button-next">
+          <i class="ri-arrow-right-s-line swiper-portifolio-icon"></i>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contato -->
-    <section class="contact" id="contato">
-      <h2 class="title top-2">Contato</h2>
+  <!-- Contato -->
+  <section class="contact" id="contato">
+    <h2 class="title top-2">Contato</h2>
 
-      <div class="contact-container">
-        <div class="left-contact">
-          <i class="ri-mail-line"></i>
-          <h2>Email</h2>
-          <a class="link-contact" href="mailto:vinicius51547@gmail.com"
-            ><p>vinicius51547@gmail.com</p></a
-          >
-        </div>
-        <div class="right-contact">
-          <i class="ri-phone-line"></i>
-          <h2>Telefone</h2>
-          <a
-            class="link-contact"
-            href="https://api.whatsapp.com/send?phone=11958825581"
-            ><p>+55 (11)958815581</p></a
-          >
-        </div>
+    <div class="contact-container">
+      <div class="left-contact">
+        <i class="ri-mail-line"></i>
+        <h2>Email</h2>
+        <a class="link-contact" href="mailto:vinicius51547@gmail.com">
+          <p>vinicius51547@gmail.com</p>
+        </a>
       </div>
-    </section>
+      <div class="right-contact">
+        <i class="ri-phone-line"></i>
+        <h2>Telefone</h2>
+        <a class="link-contact" href="https://api.whatsapp.com/send?phone=11958825581">
+          <p>+55 (11)958815581</p>
+        </a>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-      <a href="#home">
-        <button class="button-slider button-main--primary">
-          Inicio <i class="ri-arrow-up-line"></i>
-        </button>
-      </a>
+  <!-- Footer -->
+  <footer>
+    <a href="#home">
+      <button class="button-slider button-main--primary">
+        Inicio <i class="ri-arrow-up-line"></i>
+      </button>
+    </a>
 
-      <span>
-        Criado por
-        <a href="https://github.com/vinicius51547" target="_blank"
-          ><i class="ri-github-line"></i>Vinicius51547</a
-        >
-      </span>
-    </footer>
+    <span>
+      Criado por
+      <a href="https://github.com/vinicius51547" target="_blank"><i class="ri-github-line"></i>Vinicius51547</a>
+    </span>
+  </footer>
 
-    <!-- JS -->
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/animate.js"></script>
-    <script src="js/bg-animate.js"></script>
-  </body>
+  <!-- JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/animate.js"></script>
+  <script src="js/bg-animate.js"></script>
+</body>
+
 </html>
