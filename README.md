@@ -14,6 +14,20 @@
 
 link do projeto: https://lopesenatalio.com
 
+### 🔸 TaskHub: Projeto para criar e gerenciar tarefas com login do Google, compartilhamento público e comentários. <br /><br />
+🛠 Tecnologias Utilizadas nesse projeto:
+
+- Html
+- Css
+- Typescript
+- Nodejs
+- Firebase
+- Javascript
+
+link do repositorio: https://github.com/vinicius51547/Projeto-Tarefas <br />
+link do projeto: https://tasskhub.netlify.app
+
+
 ### 🔸 EliteBarber: Apresentamos um projeto de barbearia com uma tela de administração, onde é possível registrar clientes, produtos, serviços e agendamentos. <br /><br />
 🛠 Tecnologias Utilizadas nesse projeto:
 
@@ -24,7 +38,7 @@ link do projeto: https://lopesenatalio.com
 - Xampp
 - Mysql
 
-link do projeto: http://elitebarber.epizy.com <br />
+link do projeto: http://elitebarber.wuaze.com <br />
 link do repositorio: https://github.com/vinicius51547/Projeto-Barbearia
 
 ### 🔸 Uniwise: Essa foi uma campanha de arrecadação de agasalhos para doação criada por meu grupo para o combate da frente fria que ocorreu em maio de 2021. <br /><br />
@@ -35,8 +49,21 @@ link do repositorio: https://github.com/vinicius51547/Projeto-Barbearia
 - Css
 - JavaScript
 
-link do projeto: http://uniwise.lovestoblog.com/?i=1 <br />
+link do projeto: http://uniwise.wuaze.com <br />
 link do repositorio: https://github.com/vinicius51547/Uniwise
+
+### 🔸 PixelsDesign: Landing page com formulário de contato. <br /><br />
+🛠 Tecnologias Utilizadas nesse projeto:
+
+- Html
+- Css
+- Javascript
+- Php
+- Mysql
+
+link do repositorio: https://github.com/vinicius51547/Projeto-Tarefas <br />
+link do projeto: https://tasskhub.netlify.app
+
 
 ### 🔸 WaiterApp: App de pedidos com direito a categorias, cardápio e carrinho de compras. <br /><br />
 🛠 Tecnologias Utilizadas nesse projeto:
@@ -59,10 +86,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - Html
 - Css
+- Sass
 - JavaScript
 
 ### 🔗 Acesso ao projeto
-Link do portifolio: https://vinicius51547.github.io/portifolio/
+Link do portifolio: https://vinicius51547.github.io/Portifolio/
+
 
 ### 📞 Contato
 
