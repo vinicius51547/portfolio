@@ -1,6 +1,6 @@
 @import "variables";
 @import "mixins";
-@import "gerais";
+@import "global";
 @import "bg-animate";
 @import "lightmode";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
@@ -49,11 +49,13 @@ body {
 }
 
 @keyframes bounce {
+
   0%,
   80%,
   100% {
     transform: scale(0);
   }
+
   40% {
     transform: scale(1);
   }
@@ -298,9 +300,11 @@ main .main-img {
   0% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-10px);
   }
+
   100% {
     transform: translateY(0px);
   }
@@ -336,6 +340,10 @@ main .main-img {
 @media (max-width: 900px) {
   .about-container {
     flex-direction: column;
+  }
+
+  .align-btn-download {
+    @include center-flex;
   }
 }
 
@@ -398,7 +406,6 @@ main .main-img {
   max-width: 400px;
   margin-top: 0.5rem;
   padding: 1rem 0;
-  // border: 2px solid $primary-color;
   cursor: pointer;
   border-radius: 4px;
 }
@@ -543,9 +550,11 @@ svg {
     flex-direction: column;
     gap: 20px;
   }
+
   .slide-text {
     max-width: 265px;
   }
+
   .portifolio_img {
     max-width: 270px;
   }
@@ -571,7 +580,7 @@ svg {
   }
 
   .slide-text p {
-    width: 230px;
+    width: 200px;
     margin: auto;
   }
 }
@@ -581,15 +590,15 @@ svg {
   gap: 0.5rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 760px) {
   .btn-sliders {
     justify-content: center;
   }
 }
 
-@media (max-width: 300px) {
-  .button-slider {
-    font-size: $font-size-small;
+@media (max-width: 320px) {
+  .btn-sliders a {
+    min-width: 0;
   }
 }
 
@@ -607,6 +616,28 @@ svg {
   width: 320px;
   border-radius: 0.5rem;
 }
+
+.tech-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: $font-size-large;
+  padding: 5px;
+  gap: 2px;
+}
+
+.tech-icons i:hover {
+  color: $main-color;
+  font-size: calc($font-size-large + 1px);
+  transition: ease-in 0.1s;
+}
+
+@media (max-width: 760px) {
+  .tech-icons {
+    justify-content: center;
+  }
+}
+
 
 .swiper-pagination {
   font-size: $font-size-large;
@@ -662,6 +693,7 @@ svg {
 }
 
 .contact {
+
   .left-contact,
   .right-contact {
     padding: 20px;
@@ -678,6 +710,7 @@ svg {
   }
 
   @media (max-width: 335px) {
+
     .left-contact,
     .right-contact {
       font-size: $font-size-base;

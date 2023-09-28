@@ -1,0 +1,181 @@
+@import "variables";
+@import "mixins";
+
+p {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+  color: $primary-color;
+  margin: 0;
+}
+
+// Top
+.top {
+  padding-top: 10rem;
+}
+
+.top-2 {
+  padding-top: 8rem;
+}
+
+@media (max-width: 900px) {
+  .top-2 {
+    padding-top: 6rem;
+  }
+}
+
+// Titulo
+.title {
+  font-weight: 500;
+  color: $primary-color;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: $font-size-title;
+}
+
+@media (min-width: 900px) {
+  .title {
+    text-align: left;
+  }
+}
+
+// Sub Titulo
+.sub-title-1 {
+  color: $secondary-color;
+  line-height: 1.375;
+  margin-bottom: 5px;
+}
+
+// Centralizar Texto quando chegar a 900px
+@media (max-width: 900px) {
+  .text-center {
+    text-align: center;
+  }
+}
+
+// Centralizar Texto quando chegar a 760px
+
+@media (max-width: 760px) {
+  .text-center-2 {
+    text-align: center;
+  }
+}
+
+// Largura do texto até chegar a 900px
+@media (min-width: 900px) {
+  .lar-text {
+    max-width: 57%;
+    align-items: flex-start;
+  }
+}
+
+// Largura do texto quando chegar a 900px
+@media (max-width: 900px) {
+  .max-text {
+    max-width: 400px;
+    text-align: center;
+  }
+}
+
+// Botão Principal
+
+.button-main {
+  height: $button-height;
+  font-size: $button-font-size;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  border: 0px;
+  padding: $button-padding;
+  border-radius: $button-border-radius;
+  background: $main-color;
+  color: $primary-color;
+  min-width: $button-min-width;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    background: $hover-color-main;
+  }
+
+  &--primary {
+    @extend .button-main;
+    @include center-flex;
+    max-width: 10rem;
+    gap: 5px;
+    text-decoration: none;
+    background: $main-color;
+    margin-top: 1rem;
+    color: $primary-color;
+  }
+
+  &--secondary {
+    @extend .button-main;
+    @include center-flex;
+    gap: 5px;
+    background: $bg-secondary;
+    padding: $button-padding;
+    margin-top: 1rem;
+    min-width: 8.1rem;
+    color: $primary-color;
+    text-decoration: none;
+
+  }
+
+  &--secondary:hover {
+    background: $primary-color;
+    color: $bg-secondary;
+  }
+
+  &--third {
+    @extend .button-main;
+    height: $button-height;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    width: 9rem;
+    background: $main-color;
+    color: $secondary-color;
+  }
+}
+
+// Barra scroll
+
+/* Chrome, Safari e Opera */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: $primary-color;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $main-color;
+  border-radius: 20px;
+}
+
+/* Firefox */
+::-moz-scrollbar {
+  width: 10px;
+  background-color: $primary-color;
+  border-radius: 20px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: $main-color;
+  border-radius: 20px;
+}
+
+/* Edge e IE */
+::-ms-scrollbar {
+  width: 10px;
+  background-color: $primary-color;
+  border-radius: 20px;
+}
+
+::-ms-scrollbar-thumb {
+  background-color: $main-color;
+  border-radius: 20px;
+}

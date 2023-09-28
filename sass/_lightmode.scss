@@ -105,6 +105,10 @@ input[type="checkbox"] {
   color: $title-2;
 }
 
+.dark .tech-icons i {
+  color: $dark-color;
+}
+
 .dark .swiper-pagination-bullet {
   background: $main-color;
 }
