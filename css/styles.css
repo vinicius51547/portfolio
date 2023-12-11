@@ -1,4 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: #151418;
+  color: #f6f6f6;
+}
+
 p {
   text-align: left;
 }
@@ -430,18 +443,6 @@ input[type=checkbox] {
 .dark footer span,
 .dark footer span a {
   color: #151418;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-body {
-  background: #151418;
-  color: #f6f6f6;
 }
 
 #loading-overlay {
