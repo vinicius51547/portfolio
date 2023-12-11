@@ -1,4 +1,4 @@
-<h1 align="center">Portifólio 👨‍💻</h1>
+<h1 align="center">Portfólio 👨‍💻</h1>
 
 <p align="center">Este é o meu portfólio, onde compartilho projetos e experiências de programação, demonstrando habilidades e conhecimentos em uma variedade de projetos interessantes.</p>
 
@@ -81,7 +81,7 @@ link do repositorio: https://github.com/vinicius51547/WaiterApp
 
 <br />
 
-### 🛠 Tecnologias utilizadas no portifolio
+### 🛠 Tecnologias utilizadas no portfólio
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - Html
@@ -90,7 +90,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - JavaScript
 
 ### 🔗 Acesso ao projeto
-Link do portifolio: https://vinicius51547.github.io/portifolio/
+Link do portifolio: https://vinicius51547.github.io/portfolio/
+
 
 
 ### 📞 Contato
