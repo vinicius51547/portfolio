@@ -4,16 +4,6 @@
 
 ### Projetos Destacados
 
-### 🔸 Lopesenatalio: Desenvolvi um website responsivo para uma empresa de piso industrial. <br /><br />
-🛠 Tecnologias Utilizadas nesse projeto:
-
-- Html
-- Css 
-- Javascript
-- Bootstrap
-
-link do projeto: https://lopesenatalio.com
-
 ### 🔸 TaskHub: Projeto para criar e gerenciar tarefas com login do Google, compartilhamento público e comentários. <br /><br />
 🛠 Tecnologias Utilizadas nesse projeto:
 
@@ -90,7 +80,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - JavaScript
 
 ### 🔗 Acesso ao projeto
-Link do portifolio: https://vinicius51547.github.io/portifolio/
+Link do portifolio: https://vinicius51547.github.io/portfolio/
 
 
 ### 📞 Contato
