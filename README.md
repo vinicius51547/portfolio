@@ -28,7 +28,7 @@ link do projeto: https://tasskhub.netlify.app
 - Xampp
 - Mysql
 
-link do projeto: http://elitebarber.wuaze.com <br />
+link do projeto: https://elitebarber.wuaze.com <br />
 link do repositorio: https://github.com/vinicius51547/Projeto-Barbearia
 
 ### 🔸 Uniwise: Essa foi uma campanha de arrecadação de agasalhos para doação criada por meu grupo para o combate da frente fria que ocorreu em maio de 2021. <br /><br />
@@ -39,7 +39,7 @@ link do repositorio: https://github.com/vinicius51547/Projeto-Barbearia
 - Css
 - JavaScript
 
-link do projeto: http://uniwise.wuaze.com <br />
+link do projeto: https://uniwise.wuaze.com <br />
 link do repositorio: https://github.com/vinicius51547/Uniwise
 
 ### 🔸 PixelsDesign: Landing page com formulário de contato. <br /><br />
