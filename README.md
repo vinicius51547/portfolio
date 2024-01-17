@@ -4,16 +4,6 @@
 
 ### Projetos Destacados
 
-### 🔸 Lopesenatalio: Desenvolvi um website responsivo para uma empresa de piso industrial. <br /><br />
-🛠 Tecnologias Utilizadas nesse projeto:
-
-- Html
-- Css 
-- Javascript
-- Bootstrap
-
-link do projeto: https://lopesenatalio.com
-
 ### 🔸 TaskHub: Projeto para criar e gerenciar tarefas com login do Google, compartilhamento público e comentários. <br /><br />
 🛠 Tecnologias Utilizadas nesse projeto:
 
@@ -38,7 +28,7 @@ link do projeto: https://tasskhub.netlify.app
 - Xampp
 - Mysql
 
-link do projeto: http://elitebarber.wuaze.com <br />
+link do projeto: https://elitebarber.wuaze.com <br />
 link do repositorio: https://github.com/vinicius51547/Projeto-Barbearia
 
 ### 🔸 Uniwise: Essa foi uma campanha de arrecadação de agasalhos para doação criada por meu grupo para o combate da frente fria que ocorreu em maio de 2021. <br /><br />
@@ -49,7 +39,7 @@ link do repositorio: https://github.com/vinicius51547/Projeto-Barbearia
 - Css
 - JavaScript
 
-link do projeto: http://uniwise.wuaze.com <br />
+link do projeto: https://uniwise.wuaze.com <br />
 link do repositorio: https://github.com/vinicius51547/Uniwise
 
 ### 🔸 PixelsDesign: Landing page com formulário de contato. <br /><br />
@@ -90,7 +80,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - JavaScript
 
 ### 🔗 Acesso ao projeto
-Link do portifolio: https://vinicius51547.github.io/portifolio/
+Link do portifolio: https://vinicius51547.github.io/portfolio/
 
 
 ### 📞 Contato
