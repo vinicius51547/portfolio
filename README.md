@@ -4,8 +4,7 @@
 
 ### Projetos Destacados
 
-### 🔸 Lopesenatalio: Desenvolvi e hospedei um site responsivo para uma empresa de piso industrial, alcançando êxito na 
-conclusão do projeto. Apesar disso, a empresa optou por não dar continuidade ao site. <br /><br />
+### 🔸 Lopesenatalio: Desenvolvi e hospedei um site responsivo para uma empresa de piso industrial, alcançando êxito na conclusão do projeto. Apesar disso, a empresa optou por não dar continuidade ao site. <br /><br />
 🛠 Tecnologias Utilizadas nesse projeto:
 
 - Html
