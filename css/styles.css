@@ -1015,23 +1015,24 @@ svg {
   border-radius: 0.5rem;
 }
 
-.tech-icons {
+.tech {
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
   align-items: center;
-  font-size: 1.5rem;
   padding: 5px;
   gap: 2px;
 }
 
-.tech-icons i:hover {
-  color: #f72828;
-  font-size: calc(1.5rem + 1px);
-  transition: ease-in 0.1s;
+.tech h3 {
+  background: rgb(47, 46, 52);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.875rem;
 }
 
 @media (max-width: 760px) {
-  .tech-icons {
+  .tech {
     justify-content: center;
   }
 }
