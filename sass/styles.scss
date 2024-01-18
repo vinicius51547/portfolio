@@ -547,13 +547,6 @@ svg {
   }
 }
 
-@media (min-width: 760px) {
-  .slide-text {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-}
-
 .slide-text h2 {
   margin-bottom: 10px;
   font-weight: 600;
@@ -600,7 +593,7 @@ svg {
 }
 
 .portifolio_img {
-  width: 320px;
+  width: 350px;
   border-radius: 0.5rem;
 }
 
@@ -615,7 +608,7 @@ svg {
 
 .tech h3 {
   background: $bg-secondary;
-  padding: 5px;
+  padding: 4px 6px;
   border-radius: 5px;
   font-size: $font-size-small;
 }
